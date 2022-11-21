@@ -1,0 +1,190 @@
+*
+{
+	margin: auto;
+	font-family: Roboto;
+
+}
+
+body
+{
+
+	background: #f4cf3c;
+	background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1, h2, h4
+{
+	text-align: center;
+}
+
+h1
+{
+	margin-bottom: 8%;
+	
+}
+
+.passport > h1
+{
+	margin-right: 2%;
+}
+
+h2, h4
+{
+	margin-bottom: 3%;
+}
+
+.text
+{
+	margin-bottom: 2%;
+}
+
+/*Главная страница*/
+
+.wrapper
+{
+	background-color: #ffffff;
+	margin-top: 10%;
+	margin-bottom: 10%;
+    width: 58%;
+    height: auto;
+	display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.2);
+padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.type_of_service
+{
+	font-size: 23px;
+    width: 209px;
+    margin-top: 8%;
+}
+
+.service
+{
+width: 37%;
+    display: flex;
+    flex-direction: column;
+background-color: #a6de3c;
+border-radius: 10px 100px / 120px;
+    
+}
+
+.service_wrap
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.buttons
+{
+	margin-top: 15%;
+
+	flex-direction: column;
+	width: 60%;
+	margin-right: 21%;
+    margin-bottom: 10%;
+
+}
+
+.btns
+{
+	background-color: #4acf61;
+    width: 127%;
+    text-align: center;
+    height: 34px;
+    border-radius: 4px;
+    margin-top: 11px;
+    padding-top: 15px;
+    color: white;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.btns:hover
+{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	transition: all 0.2s ease-in-out;
+}
+
+
+/*Форма оформления*/
+
+input
+{
+	display: block;
+   width: 56%;
+   padding: 0 20px;
+   margin-bottom: 10px;
+   background: #E9EFF6;
+   line-height: 40px;
+   border-width: 0;
+   border-radius: 20px;
+}
+
+
+select
+{
+	display: block;
+   width: 66%;
+   padding: 0 20px;
+   margin-bottom: 10px;
+   background: #E9EFF6;
+   line-height: 40px;
+   border-width: 0;
+   border-radius: 20px;
+   padding-bottom: 11px;
+    padding-top: 11px;
+}
+
+
+.arrow
+{
+	background-image: url(../images/arrow.png);
+	width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: 36px;
+margin-bottom: 236%;
+    margin-left: 42%;
+}
+
+.passport
+{
+	display: flex;
+}
+
+input[type="submit"] {
+   margin-top: 30px;
+   background-color: #a6de3c;
+border-radius: 10px 100px / 120px;
+   font-size: 14px;
+}
+
+input[type="submit"]:hover {
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+form
+{
+	text-align: center;
+}
+
+/*ШРИФТ*/
+@font-face
+{
+	font-family: Roboto;
+	src: url(../fonts/Roboto.ttf);
+}
